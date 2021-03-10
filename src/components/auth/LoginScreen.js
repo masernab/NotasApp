@@ -11,8 +11,8 @@ import { useForm } from "../../hooks/useForm";
 
 export const LoginScreen = () => {
   const initialForm = {
-    email: "masernab@unal.edu.co",
-    password: "123456789",
+    email: "",
+    password: "",
   };
 
   const [formState, handleInputChange] = useForm(initialForm);
